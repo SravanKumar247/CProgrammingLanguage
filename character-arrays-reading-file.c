@@ -1,3 +1,5 @@
+
+
 #include <stdio.h>
 #define MAXLINE 1000
 
@@ -28,7 +30,6 @@ int main(int argc, char* argv[])
     int len;
     int max;
     char line[MAXLINE];
-    //char line1[MAXLINE];
     char longest[MAXLINE];
 
     max=0;
@@ -55,18 +56,13 @@ int getline1(char s[], int lim)
 { 
     int c,i;
 
-    //for(i=0; i<lim-1 && (c=getchar())!= EOF && (c!='\n'); ++i)
     for(i=0; i<lim-1 && (s[i]!= EOF) && (s[i]!='\n'); ++i)
-//        s[i]=c;
     if(s[i]=='\n'){
-        //s[i]=c;
         ++i;
-
     }
 
     s[i]='\0';
     return i;
-
 }
 
 void copy(char to[], char from[])
@@ -78,3 +74,4 @@ void copy(char to[], char from[])
     }
     
 }
+
