@@ -75,3 +75,10 @@ void copy(char to[], char from[])
     
 }
 
+
+
+/*
+https://www.opentechguides.com/how-to/article/c/45/c-read-file.html
+https://stackoverflow.com/questions/16869467/command-line-arguments-reading-a-file
+
+*/
