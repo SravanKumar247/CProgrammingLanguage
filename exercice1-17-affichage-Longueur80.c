@@ -1,5 +1,6 @@
 /*
 Voici le code complet d'affichage des lignes de longueur supérieure ou égale à 80 avec les ajouts nécessaires pour que le code marche bien.
+L'originel a été remis ici avec l'autorisation de la maison d'éditions Dunod
 */
 
 #include <stdio.h>
