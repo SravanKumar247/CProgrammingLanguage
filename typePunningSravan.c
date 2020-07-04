@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 {
-  union tyepun
+  union typepun
   {
      int intval;
     char chrval[2];
   };
-  union values val;
+  union typepun val;
   val.chrval[0]='A',val.chrval[1]='B';
   printf("%c %c %d\n",val.chrval[0],val.chrval[1],val.intval);
   char c[2]={'C','D'};
